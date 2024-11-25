@@ -1,7 +1,7 @@
 name: sim_plugin
 description: "A new Flutter plugin project."
 version: 0.0.1
-homepage:
+homepage: https://github.com/flywo/sim_plugin
 
 environment:
   sdk: ^3.5.3
