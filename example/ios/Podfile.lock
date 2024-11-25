@@ -1,0 +1,28 @@
+PODS:
+  - Flutter (1.0.0)
+  - integration_test (0.0.1):
+    - Flutter
+  - sim_plugin (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+  - sim_plugin (from `.symlinks/plugins/sim_plugin/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+  sim_plugin:
+    :path: ".symlinks/plugins/sim_plugin/ios"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  integration_test: 252f60fa39af5e17c3aa9899d35d908a0721b573
+  sim_plugin: af3bac436deb7b901d5765441c85c2b0d5fa4b30
+
+PODFILE CHECKSUM: 6e700dec67e6deac9b1c69bb14c49a2217a12d15
+
+COCOAPODS: 1.15.2
