@@ -1,15 +1,11 @@
-# sim_plugin
+# 简介
 
-A new Flutter plugin project.
+获取sim卡是否插入和获取当前运营商使用。
 
-## Getting Started
+# 示例
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/to/develop-plugins),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
+```
+final _simPlugin = SimPlugin();
+final simSupportedIsOK = await _simPlugin.simSupportedIsOK();
+final currentCarrierName = await _simPlugin.getCurrentCarrierName();
+```
