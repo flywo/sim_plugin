@@ -1,5 +1,5 @@
 #import "SimPlugin.h"
-#import <YTXOperators/YTXNetUtils.h>
+#import <ATAuthSDK/TXCommonUtils.h>
 
 @implementation SimPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
@@ -12,10 +12,10 @@
 
 - (void)handleMethodCall:(FlutterMethodCall*)call result:(FlutterResult)result {
   if ([@"simSupportedIsOK" isEqualToString:call.method]) {
-    BOOL isSimOk = [[YTXNetUtils new] simSupportedIsOK];
+    BOOL isSimOk = [TXCommonUtils simSupportedIsOK];
     result(@(isSimOk));
   } else if ([@"getCurrentCarrierName" isEqualToString:call.method]) {
-    result([[YTXNetUtils new] getCurrentCarrierName]);
+    result([TXCommonUtils getCurrentCarrierName]);
   } else {
     result(FlutterMethodNotImplemented);
   }

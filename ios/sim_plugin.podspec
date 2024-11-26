@@ -17,7 +17,7 @@ A new Flutter plugin project.
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
   s.platform = :ios, '12.0'
-  s.ios.vendored_frameworks = 'Framework/YTXOperators.framework'
+  s.ios.vendored_frameworks = 'Frameworks/YTXOperators.framework', 'Frameworks/ATAuthSDK.framework', 'Frameworks/YTXMonitor.framework'
   s.static_framework = false
 
   # Flutter.framework does not contain a i386 slice.
