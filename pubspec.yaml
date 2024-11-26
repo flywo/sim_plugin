@@ -1,7 +1,7 @@
 name: sim_plugin
 description: "A flutter plugin for getting sim card info."
 version: 0.0.3
-homepage: https://github.com/flywo/sim_plugin
+homepage: https://github.com/
 
 environment:
   sdk: ^3.5.3
